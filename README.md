@@ -16,6 +16,22 @@
 
 > **Evidence level: publicly benchmarked.** Five-fold MSLR-WEB10K and Istella-S against LightGBM and XGBoost, with per-fold results committed. Not independently reproduced and not used in production. [What the levels mean](https://github.com/adeoluo#evidence-levels).
 
+## In plain English
+
+Ranking decides what you see first in a search or a feed. This is a ranking engine built from
+scratch and tested against the two libraries most teams use, LightGBM and XGBoost, on the
+same public data.
+
+- **It ties LightGBM on Microsoft's search dataset.** 0.5029 against 0.5042 (higher is
+  better). The gap is too small to be a real difference (p = 0.10).
+- **It has the top score on a second dataset.** On Istella-S it scores 0.7603, against
+  0.7595 for LightGBM (level) and 0.7554 for XGBoost (clearly lower).
+- **Every result can be recomputed.** The score for each fold is committed, with the
+  statistical tests.
+
+**Where it falls short:** LightGBM trains about twice as fast (1.7x to 2.4x), and XGBoost
+scores slightly higher on the Microsoft dataset (0.5061).
+
 ## Motivation
 
 Ranking quality decides what the users of a search engine or an ads system see first, and
