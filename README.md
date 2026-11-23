@@ -14,6 +14,8 @@
 
 ---
 
+> **Evidence level: publicly benchmarked.** Five-fold MSLR-WEB10K and Istella-S against LightGBM and XGBoost, with per-fold results committed. Not independently reproduced and not used in production. [What the levels mean](https://github.com/adeoluo#evidence-levels).
+
 ## Motivation
 
 Ranking quality decides what the users of a search engine or an ads system see first, and
