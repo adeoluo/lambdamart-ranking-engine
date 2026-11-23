@@ -1,6 +1,6 @@
 # AGENTS.md
 
-Working notes for coding agents and contributors in **Learning To Rank**. The [README](README.md)
+Working notes for coding agents and contributors in **LambdaMART Ranking Engine**. The [README](README.md)
 explains what the project does and why; this file explains how to change it safely.
 
 ## Project

@@ -1,12 +1,12 @@
-<h1 align="center">Learning To Rank</h1>
+<h1 align="center">LambdaMART Ranking Engine</h1>
 
 <p align="center">
   <em>LambdaMART with a Rust histogram core, neural rankers, click models and unbiased learning to rank, measured against LightGBM and XGBoost on MSLR-WEB10K and Istella-S.</em>
 </p>
 
 <p align="center">
-  <a href="https://github.com/adeoluo/learning-to-rank/actions/workflows/ci.yml"><img alt="CI" src="https://github.com/adeoluo/learning-to-rank/actions/workflows/ci.yml/badge.svg"></a>
-  <a href="https://github.com/adeoluo/learning-to-rank/releases"><img alt="Release" src="https://img.shields.io/github/v/release/adeoluo/learning-to-rank"></a>
+  <a href="https://github.com/adeoluo/lambdamart-ranking-engine/actions/workflows/ci.yml"><img alt="CI" src="https://github.com/adeoluo/lambdamart-ranking-engine/actions/workflows/ci.yml/badge.svg"></a>
+  <a href="https://github.com/adeoluo/lambdamart-ranking-engine/releases"><img alt="Release" src="https://img.shields.io/github/v/release/adeoluo/learning-to-rank"></a>
   <img alt="Python" src="https://img.shields.io/badge/python-3.12%20%7C%203.13%20%7C%203.14%20%7C%203.15-blue">
   <img alt="Rust" src="https://img.shields.io/badge/rust-stable-B7410E">
   <a href="LICENSE"><img alt="License: MIT" src="https://img.shields.io/badge/license-MIT-green"></a>
@@ -234,7 +234,7 @@ direct per-query reference in property-based tests.
 ## Quickstart
 
 ```bash
-git clone https://github.com/adeoluo/learning-to-rank && cd learning-to-rank
+git clone https://github.com/adeoluo/lambdamart-ranking-engine && cd lambdamart-ranking-engine
 make setup     # uv sync with every extra (builds the Rust core with maturin), pre-commit
 make test
 ```
@@ -249,7 +249,7 @@ print(evaluate(test, model.predict(test))["ndcg@10"])
 ```
 
 A prebuilt wheel for macOS arm64 (abi3, Python 3.12 and later) and the source distribution are
-attached to the [releases](https://github.com/adeoluo/learning-to-rank/releases); building from
+attached to the [releases](https://github.com/adeoluo/lambdamart-ranking-engine/releases); building from
 source needs a Rust toolchain.
 
 ## Usage

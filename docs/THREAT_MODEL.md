@@ -1,4 +1,4 @@
-# Threat Model - Learning To Rank
+# Threat Model - LambdaMART Ranking Engine
 
 This is an offline training and evaluation library with a small scoring service. It reads
 datasets and model files chosen by the operator and feature vectors sent to the service; it

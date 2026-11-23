@@ -5,7 +5,7 @@ edition = "2024"
 description = "Rust core of learning-to-rank: LETOR parsing, feature binning, LambdaMART histogram trees and ranking metrics"
 license = "MIT"
 authors = ["Adeolu Ogunnoiki"]
-repository = "https://github.com/adeoluo/learning-to-rank"
+repository = "https://github.com/adeoluo/lambdamart-ranking-engine"
 publish = false
 
 [lib]

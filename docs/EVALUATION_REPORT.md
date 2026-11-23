@@ -1,4 +1,4 @@
-# Evaluation Report - Learning To Rank
+# Evaluation Report - LambdaMART Ranking Engine
 
 Reproduce everything here with `make data` and `make evaluation` (several hours on a laptop), or
 one script at a time as listed under Usage in the README. `make report` prints every table below
