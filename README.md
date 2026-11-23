@@ -16,7 +16,7 @@
 
 > **Evidence level: publicly benchmarked.** Five-fold MSLR-WEB10K and Istella-S against LightGBM and XGBoost, with per-fold results committed. Not independently reproduced and not used in production. [What the levels mean](https://github.com/adeoluo#evidence-levels).
 
-## Summary
+## Highlights
 
 Ranking decides what you see first in a search or a feed. This is a ranking engine built from
 scratch and tested against the two libraries most teams use, LightGBM and XGBoost, on the
