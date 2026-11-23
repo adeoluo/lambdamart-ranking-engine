@@ -6,7 +6,7 @@
 
 <p align="center">
   <a href="https://github.com/adeoluo/lambdamart-ranking-engine/actions/workflows/ci.yml"><img alt="CI" src="https://github.com/adeoluo/lambdamart-ranking-engine/actions/workflows/ci.yml/badge.svg"></a>
-  <a href="https://github.com/adeoluo/lambdamart-ranking-engine/releases"><img alt="Release" src="https://img.shields.io/github/v/release/adeoluo/learning-to-rank"></a>
+  <a href="https://github.com/adeoluo/lambdamart-ranking-engine/releases"><img alt="Release" src="https://img.shields.io/github/v/release/adeoluo/lambdamart-ranking-engine"></a>
   <img alt="Python" src="https://img.shields.io/badge/python-3.12%20%7C%203.13%20%7C%203.14%20%7C%203.15-blue">
   <img alt="Rust" src="https://img.shields.io/badge/rust-stable-B7410E">
   <a href="LICENSE"><img alt="License: MIT" src="https://img.shields.io/badge/license-MIT-green"></a>
