@@ -14,7 +14,7 @@
 
 ---
 
-> **Evidence level: publicly benchmarked.** The project is compared with LightGBM and XGBoost on all five folds of MSLR-WEB10K and on Istella-S, and the results for each fold are committed. Nobody else has reproduced the results, and the project is not used in production. [What the levels mean](https://github.com/adeoluo#evidence-levels).
+> **Evidence level: publicly benchmarked.** The project is compared with LightGBM and XGBoost on all five folds of MSLR-WEB10K and on Istella-S, and the results for each fold are committed. Nobody else has reproduced the results, and the project is not used in production.
 
 ## Highlights
 
